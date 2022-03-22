@@ -163,7 +163,7 @@ const displayReportedPosts = () => {
 const loadPosts = async () => {
   //let data = await fetch('posts.json');
  // posts = await data.json();
- fetch('https://jsonplaceholder.typicode.com/photos') 
+ fetch('posts.json') 
  .then(res => res.json()) 
  .then(posts => showPosts(posts))
   //showPosts(posts);
